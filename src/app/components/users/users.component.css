@@ -1,0 +1,12 @@
+.Users ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.Users li {
+  padding: 0px 10px 0px 10px;
+  background-color: red;
+  border-radius: 5px;
+  display: block;
+}
