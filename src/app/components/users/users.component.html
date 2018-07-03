@@ -5,7 +5,7 @@
       <h3>
         {{user.firstName}} {{user.lastName}}
       </h3>
-      <ul *ngIf="showExtended">
+      <ul *ngIf="showExtended && user.age && user.address">
         <li>
           Age: {{user.age}}
         </li>

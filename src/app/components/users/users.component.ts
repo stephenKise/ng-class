@@ -49,18 +49,10 @@ export class UsersComponent implements OnInit {
     setTimeout(() => {
       this.addUser({
         firstName: 'David',
-        lastName: 'Jackson',
-        age: 30,
-        address: {
-          street: '100 Lagonda Ave',
-          city: 'Springfield',
-          state: 'OH'
-        }
+        lastName: 'Jackson'
       })
       this.loaded = true
     }, 2000)
-
-    this.showExtended = false
   }
 
   addUser(user: User): void {
