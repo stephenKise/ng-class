@@ -10,6 +10,7 @@ export class UsersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('[UsersComponent] Initialized!')
   }
 
 }
