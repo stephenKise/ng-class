@@ -24,7 +24,8 @@ export class UsersComponent implements OnInit {
           street: '123 The Post Road Apt. K',
           city: 'Springfield',
           state: 'OH'
-        }
+        },
+        image: 'https://imgplaceholder.com/600x600'
       },
       {
         firstName: 'James',
@@ -34,7 +35,8 @@ export class UsersComponent implements OnInit {
           street: '935 School St',
           city: 'Lynn',
           state: 'MA'
-        }
+        },
+        image: 'https://imgplaceholder.com/600x600'
       },
       {
         firstName: 'Carrie',
@@ -44,7 +46,8 @@ export class UsersComponent implements OnInit {
           street: '1100 OH-347',
           city: 'East Liberty',
           state: 'OH'
-        }
+        },
+        image: 'https://imgplaceholder.com/600x600'
       }
     ]
     setTimeout(() => {
