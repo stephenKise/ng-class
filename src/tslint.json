@@ -12,6 +12,19 @@
             "element",
             "app",
             "kebab-case"
+        ],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "import-spacing": true,
+        "whitespace": [
+            true,
+            "check-module"
+        ],
+        "semicolon": [
+            true,
+            "never"
         ]
     }
 }
