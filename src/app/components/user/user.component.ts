@@ -12,11 +12,11 @@ export class UserComponent {
 
   constructor() {
     this.user = {
-      firstName: 'Stephen',
-      lastName: 'Kise',
+      firstName: 'John',
+      lastName: 'Doe',
       age: 25,
       address: {
-        street: '133 The Post Road Apt. Q',
+        street: '123 The Post Rd Apt. K',
         city: 'Springfield',
         state: 'OH'
       }
